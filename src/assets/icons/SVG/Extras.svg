@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73" height="76" viewBox="0 0 73 76">
+  <defs>
+    <clipPath id="clip-Extras">
+      <rect width="73" height="76"/>
+    </clipPath>
+  </defs>
+  <g id="Extras" clip-path="url(#clip-Extras)">
+    <g id="Ellipse_10" data-name="Ellipse 10" transform="translate(17 19)" fill="#fff" stroke="#1a1818" stroke-width="3">
+      <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+      <circle cx="19.5" cy="19.5" r="18" fill="none"/>
+    </g>
+    <text id="_" data-name="+" transform="translate(31 49)" font-size="27" font-family="BebasKai, Bebas Kai"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>
