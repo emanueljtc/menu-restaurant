@@ -89,4 +89,7 @@
     justify-content: center;
     padding-bottom: 30px;
   }
+   @include desktop {
+    background-position: center center;
+  }
 }
