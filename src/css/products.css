@@ -202,6 +202,8 @@ table {
     padding-bottom: 30px; }
   @media only screen and (min-width: 992px) {
     .container {
-      background-position: center center; } }
+      background-position: center center;
+      max-width: 600px;
+      margin: 0 auto; } }
 
 /*# sourceMappingURL=products.css.map */
