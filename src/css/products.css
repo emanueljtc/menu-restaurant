@@ -174,12 +174,17 @@ table {
       .container .menu .content_info .item.mode-two {
         display: grid;
         grid-template-columns: 2fr 1fr; }
+      .container .menu .content_info .item.mode-three {
+        display: flex;
+        flex-direction: column; }
       .container .menu .content_info .item .description {
         color: white;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 1.25rem; }
+        .container .menu .content_info .item .description.mb-30 {
+          margin-bottom: 1.875rem; }
         .container .menu .content_info .item .description .title {
           font-size: 1rem;
           text-transform: uppercase;
