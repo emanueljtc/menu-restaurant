@@ -4,6 +4,12 @@
 @font-face {
   font-family: Cocogoose;
   src: url("../assets/fonts/Cocogoose.ttf"); }
+@font-face {
+  font-family: CocoGothicHeavy;
+  src: url("../assets/fonts/CocoGothicHeavy.ttf"); }
+@font-face {
+  font-family: BebasKai;
+  src: url("../assets/fonts/BebasKai.ttf"); }
 html,
 body,
 div,
@@ -135,6 +141,12 @@ table {
 @font-face {
   font-family: Cocogoose;
   src: url("../assets/fonts/Cocogoose.ttf"); }
+@font-face {
+  font-family: CocoGothicHeavy;
+  src: url("../assets/fonts/CocoGothicHeavy.ttf"); }
+@font-face {
+  font-family: BebasKai;
+  src: url("../assets/fonts/BebasKai.ttf"); }
 .container {
   background-image: url("../assets/fondo.jpg");
   background-color: #131313;
@@ -199,7 +211,7 @@ table {
           font-family: Cocogoose; }
           .container .menu .content_info .item .description .title .price {
             color: #fd8924;
-            font-family: 'Avenir-Medium';
+            font-family: 'CocoGothicHeavy';
             font-weight: bold;
             margin-left: 2px; }
         .container .menu .content_info .item .description .info {

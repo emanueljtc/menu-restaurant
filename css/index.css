@@ -4,6 +4,12 @@
 @font-face {
   font-family: Cocogoose;
   src: url("../assets/fonts/Cocogoose.ttf"); }
+@font-face {
+  font-family: CocoGothicHeavy;
+  src: url("../assets/fonts/CocoGothicHeavy.ttf"); }
+@font-face {
+  font-family: BebasKai;
+  src: url("../assets/fonts/BebasKai.ttf"); }
 html,
 body,
 div,
@@ -135,6 +141,12 @@ table {
 @font-face {
   font-family: Cocogoose;
   src: url("../assets/fonts/Cocogoose.ttf"); }
+@font-face {
+  font-family: CocoGothicHeavy;
+  src: url("../assets/fonts/CocoGothicHeavy.ttf"); }
+@font-face {
+  font-family: BebasKai;
+  src: url("../assets/fonts/BebasKai.ttf"); }
 .container {
   background-image: url("../assets/fondo.jpg");
   background-color: #131313;
@@ -187,7 +199,9 @@ table {
         text-decoration: none; }
         .container .main .options .option .option_title {
           color: black;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          font-family: 'BebasKai';
+          font-size: 1.313rem; }
   .container .footer {
     display: flex;
     align-items: center;
