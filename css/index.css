@@ -170,7 +170,7 @@ table {
         height: 100%;
         max-width: 7.311rem;
         max-height: 8.143rem;
-        background-image: url(../../src/assets/boton.png);
+        background-image: url(../assets/boton.png);
         background-repeat: no-repeat;
         object-fit: cover;
         border-radius: 12px;
