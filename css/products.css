@@ -219,6 +219,33 @@ table {
           font-size: 0.75rem;
           font-weight: normal;
           line-height: 0.938rem; }
+      .container .menu .content_info .salsas {
+        margin-top: 2rem;
+        border-top-width: 2px;
+        border-color: #fd8924;
+        border-style: solid; }
+        .container .menu .content_info .salsas h1 {
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          color: #fd8924;
+          font-family: Cocogoose;
+          text-align: center;
+          margin-top: 1rem; }
+        .container .menu .content_info .salsas .content-salsas {
+          margin-top: 1rem;
+          color: white;
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-family: Cocogoose;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 20px; }
+          .container .menu .content_info .salsas .content-salsas .col-1 .item, .container .menu .content_info .salsas .content-salsas .col-2 .item {
+            margin: 5px; }
+        .container .menu .content_info .salsas .nota {
+          margin-top: 1rem;
+          color: white;
+          font-size: 11px; }
   .container .footer {
     display: flex;
     align-items: center;
