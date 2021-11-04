@@ -42,6 +42,14 @@
       margin: auto;
       height: 70%;
       .item {
+        border-bottom-width: 2px;
+        border-color: #cac7c525;
+        border-style: solid;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        &.border-none{
+          border: none
+        }
         &.mode-one {
           display: grid;
           grid-template-columns: 1fr 2fr;
@@ -122,8 +130,9 @@
           gap: 20px;
 
           .col-1, .col-2{
-            .item{
+            .salsa{
               margin: 5px;
+              margin-bottom: 2rem;
             }
           }
         }

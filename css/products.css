@@ -180,45 +180,53 @@ table {
       overflow: auto;
       margin: auto;
       height: 70%; }
-      .container .menu .content_info .item.mode-one {
-        display: grid;
-        grid-template-columns: 1fr 2fr; }
-      .container .menu .content_info .item.mode-two {
-        display: grid;
-        grid-template-columns: 2fr 1fr; }
-      .container .menu .content_info .item.mode-three {
-        display: flex;
-        flex-direction: column; }
-      .container .menu .content_info .item .content_image {
-        width: 130px;
-        height: 102px; }
-        .container .menu .content_info .item .content_image img {
-          width: 100%;
-          height: 100%; }
-      .container .menu .content_info .item .description {
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 1.25rem; }
-        .container .menu .content_info .item .description.mb-30 {
-          margin-bottom: 1.875rem;
-          margin-left: 0.313rem; }
-        .container .menu .content_info .item .description .title {
-          font-size: 1rem;
-          text-transform: uppercase;
-          font-weight: 700;
-          font-family: Cocogoose; }
-          .container .menu .content_info .item .description .title .price {
-            color: #fd8924;
-            font-family: 'CocoGothicHeavy';
-            font-weight: bold;
-            margin-left: 2px; }
-        .container .menu .content_info .item .description .info {
-          margin-top: 0.5rem;
-          font-size: 0.75rem;
-          font-weight: normal;
-          line-height: 0.938rem; }
+      .container .menu .content_info .item {
+        border-bottom-width: 2px;
+        border-color: #cac7c525;
+        border-style: solid;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem; }
+        .container .menu .content_info .item.border-none {
+          border: none; }
+        .container .menu .content_info .item.mode-one {
+          display: grid;
+          grid-template-columns: 1fr 2fr; }
+        .container .menu .content_info .item.mode-two {
+          display: grid;
+          grid-template-columns: 2fr 1fr; }
+        .container .menu .content_info .item.mode-three {
+          display: flex;
+          flex-direction: column; }
+        .container .menu .content_info .item .content_image {
+          width: 130px;
+          height: 102px; }
+          .container .menu .content_info .item .content_image img {
+            width: 100%;
+            height: 100%; }
+        .container .menu .content_info .item .description {
+          color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 1.25rem; }
+          .container .menu .content_info .item .description.mb-30 {
+            margin-bottom: 1.875rem;
+            margin-left: 0.313rem; }
+          .container .menu .content_info .item .description .title {
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: Cocogoose; }
+            .container .menu .content_info .item .description .title .price {
+              color: #fd8924;
+              font-family: 'CocoGothicHeavy';
+              font-weight: bold;
+              margin-left: 2px; }
+          .container .menu .content_info .item .description .info {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            font-weight: normal;
+            line-height: 0.938rem; }
       .container .menu .content_info .salsas {
         margin-top: 2rem;
         border-top-width: 2px;
@@ -240,8 +248,9 @@ table {
           display: grid;
           grid-template-columns: 1fr 1fr;
           gap: 20px; }
-          .container .menu .content_info .salsas .content-salsas .col-1 .item, .container .menu .content_info .salsas .content-salsas .col-2 .item {
-            margin: 5px; }
+          .container .menu .content_info .salsas .content-salsas .col-1 .salsa, .container .menu .content_info .salsas .content-salsas .col-2 .salsa {
+            margin: 5px;
+            margin-bottom: 2rem; }
         .container .menu .content_info .salsas .nota {
           margin-top: 1rem;
           color: white;
