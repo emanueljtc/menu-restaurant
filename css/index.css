@@ -162,7 +162,8 @@ table {
     justify-content: center;
     align-items: center; }
     .container .header .subtitle {
-      color: white; }
+      color: white;
+      font-size: 0.688rem; }
   .container .main {
     display: flex;
     align-items: flex-start;
