@@ -147,16 +147,21 @@ table {
 @font-face {
   font-family: BebasKai;
   src: url("../assets/fonts/BebasKai.ttf"); }
-.container {
+body {
   background-image: url("../assets/fondo.jpg");
   background-color: #131313;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  object-fit: cover;
-  height: 100vh;
+  object-fit: cover; }
+  @media only screen and (min-width: 992px) {
+    body {
+      background-position: center center;
+      max-width: 600px;
+      margin: 0 auto; } }
+
+.container {
   display: grid;
-  grid-template-rows: auto 10vh;
-  overflow: hidden; }
+  grid-template-rows: auto; }
   .container .menu {
     display: flex;
     flex-direction: column; }
@@ -165,7 +170,7 @@ table {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 20px; }
+      padding: 1.25rem; }
       .container .menu .header .icon-left,
       .container .menu .header .icon-rigth {
         display: flex;
@@ -176,10 +181,10 @@ table {
         font-weight: 700;
         font-family: Cocogoose; }
     .container .menu .content_info {
-      padding: 20px;
+      padding: 1.25rem;
+      padding-top: 0.313rem;
       overflow: auto;
-      margin: auto;
-      height: 70%; }
+      margin: auto; }
       .container .menu .content_info .item {
         border-bottom-width: 2px;
         border-color: #cac7c525;
@@ -229,7 +234,7 @@ table {
             line-height: 0.938rem; }
       .container .menu .content_info .salsas {
         margin-top: 2rem;
-        border-top-width: 2px;
+        border-top-width: 0.125rem;
         border-color: #fd8924;
         border-style: solid; }
         .container .menu .content_info .salsas h1 {
@@ -247,23 +252,19 @@ table {
           font-family: Cocogoose;
           display: grid;
           grid-template-columns: 1fr 1fr;
-          gap: 20px; }
+          gap: 1.25rem; }
           .container .menu .content_info .salsas .content-salsas .col-1 .salsa, .container .menu .content_info .salsas .content-salsas .col-2 .salsa {
-            margin: 5px;
+            margin: 0.313rem;
             margin-bottom: 2rem; }
         .container .menu .content_info .salsas .nota {
           margin-top: 1rem;
           color: white;
-          font-size: 11px; }
-  .container .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 30px; }
-  @media only screen and (min-width: 992px) {
-    .container {
-      background-position: center center;
-      max-width: 600px;
-      margin: 0 auto; } }
+          font-size: 0.688rem; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.875rem; }
 
 /*# sourceMappingURL=products.css.map */
