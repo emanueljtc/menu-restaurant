@@ -67,9 +67,14 @@
 
   .footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
+    .poweredBy{
+      color: white;
+      margin-top: 5px;
+    }
   }
   @include desktop {
     background-position: center center;

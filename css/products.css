@@ -253,7 +253,8 @@ body {
           display: grid;
           grid-template-columns: 1fr 1fr;
           gap: 1.25rem; }
-          .container .menu .content_info .salsas .content-salsas .col-1 .salsa, .container .menu .content_info .salsas .content-salsas .col-2 .salsa {
+          .container .menu .content_info .salsas .content-salsas .col-1 .salsa,
+          .container .menu .content_info .salsas .content-salsas .col-2 .salsa {
             margin: 0.313rem;
             margin-bottom: 2rem; }
         .container .menu .content_info .salsas .nota {
@@ -263,8 +264,12 @@ body {
 
 .footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 1.875rem; }
+  padding-bottom: 30px; }
+  .footer .poweredBy {
+    color: white;
+    margin-top: 5px; }
 
 /*# sourceMappingURL=products.css.map */

@@ -205,9 +205,13 @@ table {
           font-size: 1.313rem; }
   .container .footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 30px; }
+    .container .footer .poweredBy {
+      color: white;
+      margin-top: 5px; }
   @media only screen and (min-width: 992px) {
     .container {
       background-position: center center;
