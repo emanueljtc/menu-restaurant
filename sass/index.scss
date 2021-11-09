@@ -22,7 +22,7 @@
     }
   }
   .main {
-      display: flex;
+    display: flex;
     align-items: flex-start;
     justify-content: center;
     .options {
@@ -71,9 +71,13 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
-    .poweredBy{
-      color: white;
+    .poweredBy {
       margin-top: 5px;
+      a {
+        color: white;
+        font-size: 14px;
+        text-decoration: none;
+      }
     }
   }
   @include desktop {

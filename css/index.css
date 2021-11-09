@@ -210,8 +210,11 @@ table {
     justify-content: center;
     padding-bottom: 30px; }
     .container .footer .poweredBy {
-      color: white;
       margin-top: 5px; }
+      .container .footer .poweredBy a {
+        color: white;
+        font-size: 14px;
+        text-decoration: none; }
   @media only screen and (min-width: 992px) {
     .container {
       background-position: center center;

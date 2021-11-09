@@ -269,7 +269,10 @@ body {
   justify-content: center;
   padding-bottom: 30px; }
   .footer .poweredBy {
-    color: white;
     margin-top: 5px; }
+    .footer .poweredBy a {
+      color: white;
+      font-size: 14px;
+      text-decoration: none; }
 
 /*# sourceMappingURL=products.css.map */
